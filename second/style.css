@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #d3d3d3;
+}
+.container{
+	width: 700px;
+	height: 1000px;
+	margin: 25px auto;
+}
+#topbox{
+	position: relative;
+	height: 300px;
+	background-color: white;
+}
+#topbox p{
+	position: absolute;
+	margin: 0px 25px 0px 25px;
+	top: 25px;
+	line-height: 22px;
+}
+.buttons{
+	height: 100px;
+	width: 300px;
+	position: absolute;
+	bottom: 0;
+}
+#redbutton{
+	width: 125px;
+	height: 60px;
+	float: left;
+	background-color: red;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+#bluebutton{
+	width: 125px;
+	height: 60px;
+	float: left;
+	background-color: #1b8fde;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+#greyspace{
+	height: 50px;
+}
+#botbox{
+	position: relative;
+	height: 650px;
+	background-color: white;
+}
+#botbox img{
+	float: left;
+	margin: 25px;
+	width: 650px;
+	height: 400px;
+}
+#botbox p{
+	float: left;
+	margin: 0px 25px 25px 25px;
+	line-height: 25px;
+}
+footer{
+	background-color: #545454;
+	width: 100%;
+	height: 60px;
+}
+#footbuttons{
+	float: right;
+	width: 20%;
+	height: 60px;
+}
+a{
+	color: white;
+	font-size: 26px;
+	text-decoration: none;
+}
+#applebutton{
+	float: left;
+	margin-right: 10%;
+	margin-top: 12px;
+}
+#googlebutton{
+	float: left;
+	margin-top: 12px;	
+}
